@@ -4,6 +4,8 @@
 /* other css file imports */
 @import url("sections/hero.css");
 @import url("sections/about.css");
+@import url("sections/contact.css");
+@import url("sections/single-recipe.css");
 
 
 :root {
@@ -56,6 +58,7 @@ body {
 p {
   margin-top: 0;
   margin-bottom: 1.5rem;
+  max-width: 40rem;
 }
 
 h1,
