@@ -31,3 +31,28 @@
   border-radius: 8px;
   margin: 2rem 0;
 }
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero__left {
+    order: 2;
+  }
+
+  .hero__right {
+    order: 1;
+  }
+
+  .hero__desc {
+    width: 350px;
+    font-size: 1.2rem;
+    margin: 2rem 0 3rem;
+  }
+
+  .hero__img {
+    width: 350px;
+    height: 270px;
+  }
+}

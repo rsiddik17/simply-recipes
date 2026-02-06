@@ -51,3 +51,41 @@
   height: 170px;
   border-radius: var(--radius-sm);
 }
+
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about__left {
+    order: 2;
+    width: 350px;
+    margin-top: 1rem;
+  }
+
+  .about__right {
+    order: 1;
+  }
+
+  .about__title {
+    font-size: 2rem;
+  }
+
+  .about__img {
+    width: 350px;
+    height: 270px;
+  }
+
+  .featured-recipe__title {
+    text-align: left;
+    font-size: 1.4rem;
+  }
+
+  .featured-recipe__list {
+    flex-direction: column;
+  }
+
+  .featured-recipe__img {
+    width: 350px;
+  }
+}

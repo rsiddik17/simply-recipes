@@ -60,3 +60,24 @@
   font-size: 1rem;
   border-radius: var(--radius-sm);
 }
+
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact__info {
+    width: 350px;
+    margin-top: 1rem;
+  }
+
+  .contact__title {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+
+  .contact__form {
+    width: 350px;
+    margin-top: 0.8rem;
+  }
+}

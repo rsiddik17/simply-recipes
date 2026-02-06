@@ -116,3 +116,29 @@ article i {
   border-bottom: 2px solid var(--grey);
   padding-bottom: 0.8rem;
 }
+
+@media screen and (max-width: 768px) {
+  .recipe-info {
+    flex-direction: column;
+  }
+
+  .recipe-info__img {
+    width: 380px;
+    height: 270px;
+    margin-top: 1rem;
+  }
+
+  .recipe-info__title {
+ margin-top: 1rem;
+}
+
+.recipe-info__tags {
+  text-align: left;
+}
+
+.recipe-content {
+  margin: 2rem 0;
+  display: flex;
+  gap: 5rem;
+}
+}
